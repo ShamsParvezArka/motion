@@ -1,0 +1,52 @@
+.logo {
+	font-family: 'Roboto';
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.search {
+	transform: translateX(437px);
+}
+.search .bar {
+	width: 200px;
+	height: 20px;
+}
+.search .button {
+	height: 26px;
+
+}
+.top {
+	display: flex;
+	align-items: center;
+}
+
+.content {
+	transform: translate(0px, 40px);
+	display: flex;
+	align-items: center;
+}
+.content .first {
+	height : 100px;
+	width: 100px;
+	border : 2px solid black;
+	margin: 4px;
+}
+.content .second {
+	height: 100px;
+	width: 100px;
+	border: 2px solid black;
+	margin: 4px;
+}
+.content .third {
+	height : 100px;
+	width: 100px;
+	border : 2px solid black;
+	margin: 4px;
+}
+.content .fourth {
+	height : 100px;
+	width: 100px;
+	border : 2px solid black;
+	margin: 4px;
+}
+
