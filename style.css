@@ -1,15 +1,23 @@
+html body{
+ font-family: 'Roboto';
+ height: auto;
+ width: auto;
+ margin: 0;
+}
+
 .logo {
 	font-family: 'Roboto';
 	font-size: 30px;
 	font-weight: bold;
+	transform: translate(36px, 0px);
 }
 
 .search {
-	transform: translateX(437px);
+	transform: translate(356px, 0px);
 }
 .search .bar {
-	width: 200px;
-	height: 20px;
+	width: 345px;
+	height: 22px;
 }
 .search .button {
 	height: 26px;
@@ -21,32 +29,25 @@
 }
 
 .content {
-	transform: translate(0px, 40px);
-	display: flex;
+	transform: translate(145px, 40px);
+	display: inline-flex;
 	align-items: center;
 }
-.content .first {
-	height : 100px;
-	width: 100px;
-	border : 2px solid black;
+.content .info {
+	display: flex;
+	flex-direction: column;
+	
+}
+.content .info .thumbnail {
+  height: 150px;
+	width: 250px;
+	border: 1px solid gray;
 	margin: 4px;
 }
-.content .second {
-	height: 100px;
-	width: 100px;
-	border: 2px solid black;
-	margin: 4px;
-}
-.content .third {
-	height : 100px;
-	width: 100px;
-	border : 2px solid black;
-	margin: 4px;
-}
-.content .fourth {
-	height : 100px;
-	width: 100px;
-	border : 2px solid black;
-	margin: 4px;
+.content .info .link {
+	transform: translate(4px, 0px);
+	color: black;
+	text-decoration: none;
+	font-weight: 450;
 }
 
