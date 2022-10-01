@@ -1,8 +1,13 @@
+@font-face {
+	font-family: "Roboto";
+	src: "fonts/Roboto-Regular.ttf"
+}
+
 html body{
- font-family: 'Roboto';
- height: auto;
- width: auto;
- margin: 0;
+	font-family: "Roboto";
+	height: auto;
+	width: auto;
+	margin: 0;
 }
 
 .top {
