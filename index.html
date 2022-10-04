@@ -31,35 +31,21 @@
 		<!-- CONTENT SECTION -->
 		<div class="content">
 			<div class="info">
-				<img class="thumbnail" src="content/jerry_on_fire.gif">
-				<a class="link" href="">Jerry on fire</a>
-			</div>
-			<div class="info">
-				<img class="thumbnail" src="content/eastward-sam.gif">
-				<a class="link" href="">Sam - Eastward</a>
-			</div>
-			<div class="info">
-				<img class="thumbnail" src="content/cute-bunny.gif">
-				<a class="link" href="">cute bunny</a>
-			</div>
-			<div class="info">
-				<img class="thumbnail" src="content/tom-kissing-jerry.gif">
-				<a class="link" href="">Tom kissing Jerry</a>
-			</div>
-			<div class="info">
-				<img class="thumbnail" src="content/eastward-welcome-to-village.gif">
-				<a class="link" href="">Eastward Chapter 2 - Welcome to the village</a>
-			</div>
-			<div class="info">
-				<img class="thumbnail" src="content/eastward-sam-mirror.gif">
-				<a class="link" href="">Eastward - Sam's alter ego</a>
-			</div>
-			<div class="info">
-				<img class="thumbnail" src="content/grizzy-and-the-lemmings-lemming.gif">
-				<a class="link" href="">Lemmings dancing!</a>
+				<video class="thumbnail" controls muted onmouseover="this.play()" onmouseout="this.pause()">
+					<source src="content/new_york_city_720p.mp4" type="video/mp4">
+				</video>
+				<a class="link" href="">NEW YORK CITY</a>
 			</div>
 		</div>
-		
+		<button onclick="this.play()">set</button>
+		<script type="text/javascript">
+			var video = document.querySelector(".thumbnail");
+			function play() {
+				video.currentTime = 5;
+			}
+			function pause() {
+			}
+		</script>
 		
 	</body>
 </html>
